@@ -52,20 +52,3 @@ flutter pub run build_runner build --delete-conflicting-outputs
 + Добавление кодогенерации для маппинга моделей
 + Переход на источник новости
 + Добавить в подробную информацию о новости дату или другие данные
-
-
-freezed:
----
-@Freezed(genericArgumentFactories: true)
-class PaginationResponse<T> with _$PaginationResponse<T> {
-  const factory PaginationResponse({
-    int? count,
-    String? next,
-    String? previous,
-    List<T>? results,
-  }) = _PaginationResponse;
-
-  factory PaginationResponse.fromJson(Map<String, dynamic> json, T Function(Object?) fromJsonT) =>
-      _$PaginationResponseFromJson(json, fromJsonT);
-}
-

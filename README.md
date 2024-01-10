@@ -1,12 +1,7 @@
-# WebAnt Flutter Study Jam 2023
-
-
-[Презентация:](https://docs.google.com/presentation/d/1pRjsMNIY5qttQOuJUOs-alQWbs8q8gihYz_FvwS2YZk/edit?usp=sharing)
----
+# Flutter Study
 
 Полезные ссылки по проекту.
 ---
-
 
 [Макет Figma](https://www.figma.com/file/4EiIlmS0PdOUSq5Wm2KLD0/News-App?type=design&node-id=1023%3A6915&mode=design&t=IFxOOnJJEZPPNcp1-1)
 
@@ -42,8 +37,6 @@ dart pub add retrofit
 
 
 dart pub add --dev retrofit_generator
-
-
 
 
 Команда для кодогенерации:
